@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asn Merch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Asn Merch Shop</h2>
+                <p class="sub-heading">Hoddie & T-Shirt</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 250K</h4>
+                <p class="item">Hoddie</p>
+            </div>
+            <div class="features feature-2">
+            <h4 class="price">IDR 150K</h4>
+                <p class="item">T-Shirt</p>
+            </div>
+        </header>
+
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+             <h1>Asn Merch</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"> </div>
+                <h3>Tutoral</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aperiam eius dolorum, magni alias omnis?</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Online Course</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aperiam eius dolorum, magni alias omnis?</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aperiam eius dolorum, magni alias omnis?</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"></div>
+                <h3>merch</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aperiam eius dolorum, magni alias omnis?</p>
+            </div>
+        </section>
+
+
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+            <img src="/img/012.jpg" alt="">
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav= document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+        nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
